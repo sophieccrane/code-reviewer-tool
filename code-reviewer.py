@@ -10,9 +10,9 @@ import anthropic
 
 load_dotenv()
 
-GITHUB_OWNER = "sophieccrane"
+GITHUB_OWNER = "GITHUB_OWNER"
 GITHUB_REPO = "test-code-reviewer-tool"
-PR_NUMBER = 1
+PR_NUMBER = 123
 
 GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
